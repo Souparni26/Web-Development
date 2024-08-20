@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels</title>
+</head>
+<body>
+    <h1>Form to apply for Web Development course</h1>
+    <form action="post">
+        <div>
+        <label for="username">Enter your username:</label>
+        <input type="text" name="username" placeholder="Enter your username">
+    </div>
+    <div>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="Female">Female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to news letter</label>
+    </div>
+    <div>
+        <label for="comment">Enter your comment here</label>
+        <br>
+        <textarea name="comment" rows="4" cols="50" id="comment"></textarea>
+    </div>
+    <div>
+        <label for="sl">Select the fruits</label>
+        <select name="fruits" id="sl">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+    </div>
+    </form>
+</body>
+</html>
